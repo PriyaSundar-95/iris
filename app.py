@@ -18,7 +18,7 @@ def predict_species(sep_len,sep_width,pet_len,pet_wild,scaler_path,model_path):
             'SepalLengthCm':[sep_len],
             'SepalWidthCm':[sep_width],
             'PetalLengthCm':[pet_len],
-            'PetalWidthCm':[pet_wildth]
+            'PetalWidthCm':[pet_width]
         }
         x_new = pd.DataFrame(dct)
 
