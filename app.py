@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 
-def predict_species(sep_len,sep_width,pet_len,pet_wild,scaler_path,model_path):
+def predict_species(sep_len,sep_width,pet_len,pet_width,scaler_path,model_path):
     try:
         # load the scaler
         with open(scaler_path,'rb') as file1:
